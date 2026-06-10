@@ -14,62 +14,55 @@
 }
 
 body{
-    font-family: "Sriracha", cursive; ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 134, 134);
+    min-height: 100vh;
 }
 
-header{
-    font-family: "Passion One", sans-serif;
-    background-color: black;
-    color: white;
-
-    min-height: 120px;
-    text-align: center;
-    padding-top: 50px;
-
-    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.432);
-}
-
-header h1{
-    font-size: 3em;
-}
-
-header p{
-    font-size: 1.2em;
-}
-
-header a{
+a{
+    font-weight: bolder;
     text-decoration: none;
-    font-style: italic;
-    font-weight: lighter;
     color: white;
 }
 
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 
+header{
+    background-color: black;
+    color: white;
 
-main p{
-    font-size: 1.8em;
-    max-width: 350px;
-    min-height: 400px;
-    padding: 20px 20px;
-    margin-left: 30px;
+    padding: 50px 0px;
 
+    text-align: center;
+    font-family: "Passion One", sans-serif;
 }
 
-main section{
-    min-height: 500px;
-    position: relative;
-    box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.295);
+header h1{
+    font-variant: small-caps;
+    font-size: 6vw;
 }
 
-.especial{
-    border-radius: 15px;
-    background-color: rgba(160, 160, 160, 0.116);
-    position: absolute;
-    top: 30px;
-    
+section{
+    font-family: "Sriracha", cursive;
+    font-size: 3vw;
+    line-height: 2em;
+    padding: 10vh 0px 10vh 20px;
+}
+
+
+.normal{
+    background-color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233)
+}
+
+.imagem{
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 7px 7px 20px 7px rgba(0, 0, 0, 0.247);
+
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.692);
 }
 
 section#flor{
@@ -80,19 +73,21 @@ section#livro{
     background-image: url(imagens/background002.jpg);
 }
 
+.paragrafo{
+    padding-bottom: 2em;
+}
+
+.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+}
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
-}
-
-footer a{
-    text-decoration: none;
-    color: White;
-    font-weight: bolder;
-}
-
-footer a:hover{
-    text-decoration: underline;
+    padding: 5px;
 }
